@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"test_module/my_pkg"
 	"test_module/sample_pkgs/sample_pkg_1"
 	"test_module/sample_pkgs/sample_pkg_2"
 )
@@ -13,4 +14,5 @@ func main() {
 	fmt.Println(hello)
 	fmt.Println(sample_pkg_2.Func1())
 	fmt.Println(sample_pkg_2.Func2())
+	fmt.Println(my_pkg.MyFunc())
 }
